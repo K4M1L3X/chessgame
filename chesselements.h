@@ -31,7 +31,9 @@ class Field {
     public:
     int column;
     int row;
-    int color; // 0 - white, 1 - black
+    int color;  /*  
+                    0 - white, 1 - black 
+                */
     bool is_piece;
     bool is_attacked_by_white;
     bool is_attacked_by_black;

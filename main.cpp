@@ -8,5 +8,10 @@ int main() {
     chessboard.loadFields();
     chessboard.displayBoard();
 
+    // Game loop
+    while (1) {
+        
+    }
+
     return 1;
 }
